@@ -6,8 +6,8 @@ body {
   margin: 0;
   display: flex;
   flex-direction: column;
-  background: #14213d;
-  color: #2b1b26;
+  background: #3b1033;
+  color: #2d1a2f;
   font-family: Georgia, "Times New Roman", serif;
   line-height: 1.5;
 }
@@ -21,19 +21,19 @@ main {
 .window {
   width: 100%;
   max-width: 30rem;
-  background: #f7f1f4;
-  border: 2px solid #7a1f3d;
+  background: #f6eff7;
+  border: 2px solid #8c1c4a;
   border-radius: 0.75rem;
   overflow: hidden;
-  box-shadow: 0.6rem 0.6rem 0 #7a1f3d;
+  box-shadow: 0.6rem 0.6rem 0 #5b2a86;
 }
 .window-bar {
   display: flex;
   align-items: center;
   gap: 0.75rem;
   padding: 0.6rem 1rem;
-  background: #7a1f3d;
-  color: #f7f1f4;
+  background: #8c1c4a;
+  color: #f6eff7;
 }
 .window-bar h1 {
   margin: 0;
@@ -48,7 +48,7 @@ main {
   width: 0.7rem;
   height: 0.7rem;
   border-radius: 50%;
-  background: #8fa8e8;
+  background: #c3a6ec;
 }
 .window-body {
   padding: 1.25rem 1.5rem 1.5rem;
@@ -57,12 +57,12 @@ main {
   margin: 0 0 1rem;
 }
 fieldset {
-  border: 1px solid #2a4d9b;
+  border: 1px solid #5b2a86;
   border-radius: 0.4rem;
   margin: 0 0 1rem;
 }
 legend {
-  color: #2a4d9b;
+  color: #5b2a86;
   padding: 0 0.4rem;
 }
 label {
@@ -74,25 +74,25 @@ select {
   font: inherit;
   padding: 0.25rem 0.5rem;
   margin-left: 0.5rem;
-  border: 1px solid #2a4d9b;
+  border: 1px solid #5b2a86;
   border-radius: 0.3rem;
   background: #ffffff;
 }
 input[type="radio"],
 input[type="checkbox"] {
-  accent-color: #7a1f3d;
+  accent-color: #8c1c4a;
   margin-right: 0.4rem;
 }
 input:focus-visible,
 select:focus-visible {
-  outline: 3px solid #2a4d9b;
+  outline: 3px solid #5b2a86;
   outline-offset: 2px;
 }
 .total {
   margin: 1.25rem 0 0;
   padding: 0.75rem 1rem;
-  background: #14213d;
-  color: #f7f1f4;
+  background: #4a1f6e;
+  color: #f6eff7;
   border-radius: 0.4rem;
   font-size: 1.5rem;
 }
@@ -101,9 +101,8 @@ select:focus-visible {
 }
 footer {
   padding: 1rem;
-  background: #7a1f3d;
-  color: #f7f1f4;
+  background: #333333;
+  color: #eeeeee;
   text-align: center;
   font-size: 1.1rem;
-  border-top: 4px solid #2a4d9b;
 }
