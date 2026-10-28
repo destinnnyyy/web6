@@ -9,27 +9,35 @@
 </head>
 <body>
   <main>
-    <h1>Печать на заказ</h1>
-    <form id="calc">
-      <p>
-        <label for="qty">Количество, шт.</label>
-        <input type="number" id="qty" name="qty" value="1" min="1" step="1">
-      </p>
-      <fieldset>
-        <legend>Что печатаем</legend>
-        <label><input type="radio" name="kind" value="mug" checked>Кружка</label>
-        <label><input type="radio" name="kind" value="shirt">Футболка</label>
-        <label><input type="radio" name="kind" value="poster">Постер</label>
-      </fieldset>
-      <p id="opt-box">
-        <label for="opt">Материал</label>
-        <select id="opt" name="opt"></select>
-      </p>
-      <p id="prop-box">
-        <label><input type="checkbox" id="prop" name="prop">Ламинация (+150 ₽ за штуку)</label>
-      </p>
-    </form>
-    <p class="total" aria-live="polite">Стоимость: <output id="total">0</output> ₽</p>
+    <section class="window" aria-labelledby="win-title">
+      <header class="window-bar">
+        <span class="dots" aria-hidden="true"><i></i><i></i><i></i></span>
+        <h1 id="win-title">Калькулятор стоимости печати</h1>
+      </header>
+      <div class="window-body">
+        <form id="calc">
+          <p class="field">
+            <label for="qty">Количество, шт.</label>
+            <input type="number" id="qty" name="qty" value="1" min="1" step="1">
+          </p>
+          <fieldset>
+            <legend>Что печатаем</legend>
+            <label><input type="radio" name="kind" value="mug" checked>Кружка</label>
+            <label><input type="radio" name="kind" value="shirt">Футболка</label>
+            <label><input type="radio" name="kind" value="poster">Постер</label>
+          </fieldset>
+          <p class="field" id="opt-box">
+            <label for="opt">Материал</label>
+            <select id="opt" name="opt"></select>
+          </p>
+          <p class="field" id="prop-box">
+            <label><input type="checkbox" id="prop" name="prop">Ламинация (+150 ₽ за штуку)</label>
+          </p>
+        </form>
+        <p class="total" aria-live="polite">Стоимость: <output id="total">0</output> ₽</p>
+      </div>
+    </section>
   </main>
+  <footer>Мой сайт</footer>
 </body>
 </html>
